@@ -1,0 +1,124 @@
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+/* top player style start */
+.top-players{
+    margin-bottom: 30px;
+}
+.container{
+    background: #fff;
+    width: 870px;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap:30px ;
+   
+}
+.palyer{
+    display: flex;
+    align-items: center;
+}
+.palyer img{
+    width: 56px;
+    height: 56px;
+}
+.palyer .nam{
+    padding: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+
+}
+/*....................... 
+ top player style end
+........................ */
+
+/* top blog style start */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap:26px ;
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 15px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+/* top blogs style end */
+
+/* leatest course style start */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+.course{
+    box-shadow: 1px 2px 30px #f2f0fe;
+    border-radius: 10px;
+}
+.course-banner img{
+     width: 100%;
+}
+.course-author{
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.course-info p {
+    margin-right: 50px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.course-duration{
+    background: #FEE5DF;
+    color: #ED6B4F;
+    border-radius:30px;
+    padding:2px 6px;
+}
+/* leatest course style end */
