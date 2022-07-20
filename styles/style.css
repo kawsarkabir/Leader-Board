@@ -145,3 +145,42 @@ Responsive part start
     }
     
 }
+/* midium device style */
+
+@media only screen and (min-width:576px) and (max-width:776px) {
+    .section-title{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .palyer, .blog, .course{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+/* learge device  */
+
+@media only screen and (min-width:776px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .players, .courses{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .palyer, .blog, .course{
+        align-items: center;
+         
+    }
+    
+}
+
